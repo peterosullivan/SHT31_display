@@ -80,6 +80,7 @@ void loop()
    u8g2.firstPage();
    do {
      u8g2.setFont(u8g2_font_helvR12_tf);
+     u8g2.setContrast(10);
      u8g2.setCursor(0, 15);
 
      u8g2.print(temp,1);
